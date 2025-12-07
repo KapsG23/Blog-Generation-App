@@ -1,0 +1,53 @@
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Environment variable files ---
+.env
+*.env
+
+# --- Logs ---
+*.log
+
+# --- Do NOT track ANY .txt files by default ---
+*.txt
+
+# --- But allow README.md, requirements.txt ---
+!README.md
+!requirements.txt
+
+# --- EXCEPT: Do NOT track these sensitive text files specifically ---
+Blogs.txt
+keys.txt
+
+# --- macOS / Windows junk ---
+.DS_Store
+Thumbs.db
+
+# --- Build artifacts ---
+build/
+dist/
+*.egg-info/
+wheels/
+
+# --- IDE / Editor specific ---
+.vscode/
+.idea/
+
+# --- UV / Poetry / Pipenv ---
+uv.lock
+poetry.lock
+Pipfile
+Pipfile.lock
+
+# --- LangGraph internal cache ---
+.langgraph_api/
+
